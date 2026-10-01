@@ -76,9 +76,27 @@ const [size, setSize] = useState('');
             </div>
             <button className='bg-black cursor-pointer text-white px-8 py-3 text-sm active:bg-gray-700'>Add to cart</button>
             <hr className='mt-8 sm:w-4/5' />
-      
+                <div className="text-sm text-gray-500 flex flex-col gap-1 ">
+                <p>100% Original Products</p>
+                <p>Cash on delivery is available on this product </p>
+                <p>Easy returb and excahnge policy within 7 days</p>
+                </div>
         </div>
       </div>  
+
+{/* Description and Review Section */}
+
+
+        <div className="mt-20">
+          <div className="flex">
+            <b className='border px-5 py-3 text-sm'>Description</b>
+           <p className="border px-5 py-3 text-sm">Review</p>
+          </div>
+                <div className="flex flex-col gap-4 border p-6 text-sm texy-gray-600">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem quo nisi voluptatum et facilis doloribus ullam odio fuga alias officiis, iusto illo nihil!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit qui a! Ipsam rem laudantium delectus! Rerum voluptatem quaerat corrupti?</p>
+                </div>
+        </div>
 
     </div>
   ) : <div className='opacity-0'>
